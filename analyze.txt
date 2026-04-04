@@ -1,0 +1,9 @@
+Analyzing Promilaj...                                           
+
+   info - Dangling library doc comment - lib\core\constants\constants.dart:2:1 - dangling_library_doc_comments
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\core\theme\liquid_glass_theme.dart:42:60 - deprecated_member_use
+   info - 'desiredAccuracy' is deprecated and shouldn't be used. use settings parameter with AndroidSettings, AppleSettings, WebSettings, or LocationSettings - lib\core\utils\location_service.dart:52:9 - deprecated_member_use
+   info - Dangling library doc comment - lib\data\models\drink_type.dart:1:1 - dangling_library_doc_comments
+   info - Dangling library doc comment - lib\data\models\user_profile.dart:3:1 - dangling_library_doc_comments
+
+5 issues found. (ran in 1.6s)

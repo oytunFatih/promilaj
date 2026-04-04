@@ -1,0 +1,44 @@
+name: promilaj
+description: "Promilaj — Kişisel kan alkol seviyesi (BAC) hesaplayıcı ve takipçi"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Durum yönetimi
+  flutter_riverpod: ^2.6.1
+
+  # Yerel depolama
+  shared_preferences: ^2.3.4
+
+  # Konum servisleri
+  geolocator: ^13.0.2
+  geocoding: ^3.0.0
+
+  # Harici bağlantılar
+  url_launcher: ^6.3.1
+
+  # Çoklu dil desteği
+  intl: any
+
+  # Modern tipografi
+  google_fonts: ^6.2.1
+
+  # iOS tarzı ikonlar
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true

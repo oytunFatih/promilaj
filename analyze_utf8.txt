@@ -1,0 +1,33 @@
+﻿Analyzing Promilaj...                                           
+
+   info - Dangling library doc comment - lib\core\constants\constants.dart:2:1 - dangling_library_doc_comments
+   info - 'desiredAccuracy' is deprecated and shouldn't be used. use settings parameter with AndroidSettings, AppleSettings, WebSettings, or LocationSettings - lib\core\utils\location_service.dart:52:9 - deprecated_member_use
+  error - Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' - lib\core\utils\popups.dart:3:8 - uri_does_not_exist
+  error - Undefined name 'AppLocalizations' - lib\core\utils\popups.dart:12:18 - undefined_identifier
+  error - Undefined name 'AppLocalizations' - lib\core\utils\popups.dart:32:18 - undefined_identifier
+  error - Undefined name 'AppLocalizations' - lib\core\utils\popups.dart:56:18 - undefined_identifier
+   info - Dangling library doc comment - lib\data\models\drink_type.dart:1:1 - dangling_library_doc_comments
+   info - Dangling library doc comment - lib\data\models\user_profile.dart:3:1 - dangling_library_doc_comments
+  error - Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' - lib\features\add_drink\add_drink_view.dart:11:8 - uri_does_not_exist
+  error - Undefined name 'AppLocalizations' - lib\features\add_drink\add_drink_view.dart:37:18 - undefined_identifier
+  error - Undefined class 'AppLocalizations' - lib\features\add_drink\add_drink_view.dart:105:34 - undefined_class
+  error - Undefined class 'AppLocalizations' - lib\features\add_drink\add_drink_view.dart:119:19 - undefined_class
+  error - Undefined class 'AppLocalizations' - lib\features\add_drink\add_drink_view.dart:134:19 - undefined_class
+  error - Undefined class 'AppLocalizations' - lib\features\add_drink\add_drink_view.dart:178:19 - undefined_class
+  error - Undefined class 'AppLocalizations' - lib\features\add_drink\add_drink_view.dart:234:44 - undefined_class
+  error - Undefined class 'AppLocalizations' - lib\features\add_drink\add_drink_view.dart:366:43 - undefined_class
+  error - Undefined class 'AppLocalizations' - lib\features\add_drink\add_drink_view.dart:379:36 - undefined_class
+  error - Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' - lib\features\home\home_view.dart:14:8 - uri_does_not_exist
+warning - The value of the field '_initialized' isn't used - lib\features\home\home_view.dart:25:8 - unused_field
+  error - Undefined name 'AppLocalizations' - lib\features\home\home_view.dart:48:18 - undefined_identifier
+  error - Undefined class 'AppLocalizations' - lib\features\home\home_view.dart:217:42 - undefined_class
+  error - Undefined class 'AppLocalizations' - lib\features\home\home_view.dart:250:34 - undefined_class
+  error - Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' - lib\features\onboarding\onboarding_view.dart:9:8 - uri_does_not_exist
+  error - Undefined name 'AppLocalizations' - lib\features\onboarding\onboarding_view.dart:52:18 - undefined_identifier
+  error - Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' - lib\features\settings\settings_view.dart:8:8 - uri_does_not_exist
+  error - Undefined name 'AppLocalizations' - lib\features\settings\settings_view.dart:48:18 - undefined_identifier
+  error - Target of URI doesn't exist: 'package:flutter_gen/gen_l10n/app_localizations.dart' - lib\main.dart:9:8 - uri_does_not_exist
+  error - The values in a const list literal must be constants - lib\main.dart:42:9 - non_constant_list_element
+  error - Undefined name 'AppLocalizations' - lib\main.dart:42:9 - undefined_identifier
+  error - The name 'MyApp' isn't a class - test\widget_test.dart:16:35 - creation_with_non_type
+
